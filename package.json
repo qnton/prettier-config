@@ -1,0 +1,14 @@
+{
+  "name": "qnton-prettier-config",
+  "author": "qnton",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "prettier --config ./index.js --check example/",
+    "test:update": "prettier --config ./index.js --write example/"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}

@@ -1,0 +1,2 @@
+class MyClass{private myNumber:number;private myString:string;constructor(num:number,str:string){this.myNumber=num;this.myString=str;}public getNumber():number{return this.myNumber;}public setNumber(num:number):void{this.myNumber=num;}public getString():string{return this.myString;}public setString(str:string):void{this.myString=str;}}const myObject=new MyClass(5,"hello");console.log(myObject.getNumber());console.log(myObject.getString());myObject.setNumber(10);myObject.setString("world");console.log(myObject.getNumber());console.log(myObject.getString());
+
