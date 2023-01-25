@@ -1,5 +1,5 @@
 {
-  "name": "qnton-prettier-config",
+  "name": "@qnton/prettier-config",
   "author": "qnton",
   "version": "1.0.1",
   "scripts": {
@@ -10,5 +10,12 @@
   "main": "index.js",
   "devDependencies": {
     "prettier": "^2.8.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qnton/prettier-config.git"
   }
 }
