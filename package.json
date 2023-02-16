@@ -1,7 +1,7 @@
 {
   "name": "@qnton/prettier-config",
   "author": "qnton",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "prettier --config ./index.js --check example/",
     "test:update": "prettier --config ./index.js --write example/"
