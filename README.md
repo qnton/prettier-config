@@ -13,7 +13,7 @@ npm install --save-dev prettier
 Then you have to install my config with the following command:
 
 ```shell
-npm install --save-dev @qnton/prettier-config
+npm install --save-dev qnton-prettier-config
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ To use this configuration, add the following key to your `package.json` file:
 
 ```json
 {
-  "prettier": "@qnton/prettier-config"
+  "prettier": "qnton-prettier-config"
 }
 ```
 
@@ -31,7 +31,7 @@ To use this configuration, add the following key to your `package.json` file:
 If you want to customize the configuration, you can do so by creating a `.prettierrc.js` file in the root of your project and adding your own settings. But first you have to remove the option in the `package.json`
 
 ```js
-const baseConfig = require("@qnton/prettier-config");
+const baseConfig = require("qnton-prettier-config");
 
 module.exports = {
   ...baseConfig,
